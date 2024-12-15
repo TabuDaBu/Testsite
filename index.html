@@ -1,17 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Page</title>
-</head>
-<body>
-<h1>Welcome to My GitHub Page</h1>
-<p>This is hosted on GitHub Pages!</p>
+/* Zentriere den gesamten Inhalt */
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 100vh; /* Nimmt die gesamte Höhe des Viewports ein */
+margin: 0; /* Entfernt Standardabstände */
+text-align: center; /* Zentriert den Textinhalt */
+font-family: Arial, sans-serif; /* Optional: Standard-Schriftart */
+background-color: #f9f9f9; /* Optional: Hintergrundfarbe */
+}
 
-<!-- Add a button linking to a Google image -->
-<a href="https://www.google.at/search?q=penang&sca_esv=dbc91ea4db14575c&hl=de&sxsrf=ADLYWIIMUu0iU7Hdi1mq8xpJ1dn9nUimJA:1734033955272&source=hp&biw=1968&bih=955&ei=I0JbZ6utDtaHxc8P5-3RsQ8&iflsig=AL9hbdgAAAAAZ1tQM11jK5uMYR_vovk-MbWPXeeTHZ6c&ved=0ahUKEwjryrjvg6OKAxXWQ_EDHed2NPYQ4dUDCBA&uact=5&oq=penang&gs_lp=EgNpbWciBnBlbmFuZzIEECMYJzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjZFFCaCliBE3ABeACQAQCYAX-gAaoFqgEDMC42uAEDyAEA-AEBigILZ3dzLXdpei1pbWeYAgegAsIFqAIKwgIHECMYJxjqAsICCxAAGIAEGLEDGIMBwgIOEAAYgAQYsQMYgwEYigXCAggQABiABBixA5gDB5IHAzEuNqAH2CY&sclient=img&udm=2#vhid=pEX286xwj8JwBM&vssid=mosaic" target="_blank">
-    <button>View Google Picture</button>
-</a>
-</body>
-</html>
+/* Styling für Überschriften */
+h1 {
+margin: 10px 0;
+color: #333; /* Optional: Textfarbe */
+}
+
+/* Styling für Paragraphen */
+p {
+margin: 10px 0;
+color: #555; /* Optional: Textfarbe */
+}
+
+/* Styling für Buttons */
+button {
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border: 1px solid #007BFF; /* Optional: Rahmen */
+background-color: #007BFF; /* Optional: Hintergrundfarbe */
+color: #fff; /* Optional: Textfarbe */
+border-radius: 5px; /* Optional: Abgerundete Ecken */
+transition: background-color 0.3s ease; /* Animation bei Hover */
+}
+
+/* Hover-Effekt für den Button */
+button:hover {
+background-color: #0056b3; /* Dunklerer Farbton bei Hover */
+}
